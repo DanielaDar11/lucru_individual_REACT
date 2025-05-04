@@ -10,6 +10,7 @@ import {
   stergeScorurileSalvate,
   salveazaInLocalStorage,
 } from "../../utils/localStorage";
+
 const max_gresite = 7;
 const max_jocuri = 3;
 
@@ -108,10 +109,11 @@ const Spanzuratoarea = ({ nume, timpLimita }) => {
         if (jocuri < max_jocuri) {
           setTimeout(() => initJoc(), 4000);
         }
-      } else {
+      } else if (timpRamas !== null) {
         const timer = setTimeout(() => {
           setTimpRamas((t) => t - 1);
         }, 1000);
+
         return () => clearTimeout(timer);
       }
     }
