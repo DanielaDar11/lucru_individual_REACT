@@ -1,0 +1,1 @@
+# lucru_individual_REACT
