@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import cuvinte from "../../constants/cuvinte";
 import SpDesen from "../SpDesen/SpDesen";
-import AfisareCuvant from "../CuvantAfisat/CuvantAfisat";
+import CuvantAfisat from "../CuvantAfisat/CuvantAfisat";
 import Tastatura from "../Tastatura/Tastatura";
 import styles from "./Spanzuratoarea.module.css";
 import Scor from "../Scor/Scor";
@@ -164,7 +164,7 @@ const Spanzuratoarea = ({ nume, timpLimita }) => {
       {jocuriJucate < max_jocuri && (
         <>
           <SpDesen greseli={greseli} />
-          <AfisareCuvant
+          <CuvantAfisat
             cuvantSelectat={cuvantSelectat}
             litereGhicite={litereGhicite}
           />
