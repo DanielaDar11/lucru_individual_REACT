@@ -1,0 +1,80 @@
+.quizContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.formGroup input,
+.formGroup select {
+  margin-top: 8px;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.spImageContainer {
+  text-align: center;
+}
+
+.spImage {
+  width: 500px;
+  min-height: 300px;
+}
+
+.form button {
+  background-color: rgb(19, 191, 244);
+}
+
+.trimitere:hover {
+  background-color: rgb(6, 157, 195);
+}
+
+.eroare {
+  color: red;
+}
+.citatContainer {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.citat {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-size: 20px;
+  color: #ff0000;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titlu {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+  .spImage {
+    width: 100%;
+    height: 100px;
+  }
+}

@@ -1,0 +1,101 @@
+.containerSpanzuratoare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b7a2f1;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  margin-top: 30px;
+}
+
+.numeJucator,
+.scor,
+.jocuri,
+.timer {
+  font-size: 20px;
+  margin: 8px 0;
+  color: #333;
+}
+
+.infoJoc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.butonReset {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 19px;
+  margin-top: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.butonReset:hover {
+  background-color: #0056b3;
+}
+
+.mesaj {
+  font-size: 21px;
+  margin: 24px 0;
+  font-weight: bold;
+  text-align: center;
+  padding: 13px 19px;
+  border-radius: 8px;
+}
+
+.castigat {
+  color: green;
+  background-color: #d4edda;
+}
+
+.pierdut {
+  color: #842029;
+  background-color: #f8d7da;
+}
+
+.limitat {
+  color: #856404;
+  background-color: #fff3cd;
+}
+
+.butonJoacaDinNou {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.butonJoacaDinNou:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.butonStergeScoruri:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .numeJucator,
+  .scor,
+  .jocuri,
+  .timer,
+  .mesaj {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}

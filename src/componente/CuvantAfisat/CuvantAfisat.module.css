@@ -1,0 +1,14 @@
+.afisareCuvant {
+  margin: 30px 0;
+  font-size: 32px;
+  letter-spacing: 10px;
+  font-weight: bold;
+  min-height: 50px;
+}
+@media (max-width: 480px) {
+  .afisareCuvant {
+    font-size: 16px;
+    letter-spacing: 6px;
+    margin: 20px 0;
+  }
+}

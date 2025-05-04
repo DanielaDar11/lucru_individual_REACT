@@ -1,0 +1,57 @@
+.containerScor {
+  width: 500px;
+  margin: 0 auto;
+  padding: 3%;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  color: black !important;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.listaScoruri {
+  list-style-type: none;
+  padding: 0;
+}
+
+.scor {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #cdcdcd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.butonDetalii {
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #10a929 !important;
+  color: white !important;
+  border: none;
+  border-radius: 4px;
+}
+
+.butonDetalii:hover {
+  background-color: #066806 !important;
+}
+@media (max-width: 500px) {
+  .containerScor {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .scor {
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .butonDetalii {
+    width: 100%;
+  }
+}

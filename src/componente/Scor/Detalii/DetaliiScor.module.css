@@ -1,0 +1,18 @@
+.detaliiScor {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.detaliiItem {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.corect {
+  color: green;
+}
+
+.gresit {
+  color: red;
+}
